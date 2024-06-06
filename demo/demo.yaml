@@ -1,0 +1,72 @@
+
+# Scalars
+# Scalars are the simplest type of data, representing a single value.
+name: "subba"
+age: 39
+
+---
+project:
+
+  name: ProjectX
+
+  description: "A complex project configuration example"
+
+  team:
+
+  - name: Alice
+
+    role: Developer
+
+    contact:
+
+      email: alice@example.com
+
+      phone: 123-456-7891
+
+  - name: Bob
+
+    role: Designer
+
+    contact:
+
+      email: bob@example.com
+
+      phone: 123-456-7892
+
+  milestones:
+
+  - title: Initial Release
+
+    due_date: 2024-06-30
+
+    tasks:
+
+    - id: 1
+
+      description: "Design the UI"
+
+      status: completed
+
+    - id: 2
+
+      description: "Develop the backend"
+
+      status: in_progress
+
+  - title: Beta Release
+
+    due_date: 2024-08-15
+
+    tasks:
+
+    - id: 3
+
+      description: "User testing"
+
+      status: pending
+
+    - id: 4
+
+      description: "Bug fixes"
+
+      status: pending
